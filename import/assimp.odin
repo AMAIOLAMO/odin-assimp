@@ -182,6 +182,29 @@ AI_MAX_NUMBER_OF_TEXTURECOORDS :: 0x8
 
 AI_MAX_STRING_LENGTH :: 1024
 
+
+AI_MATKEY_NAME              : cstring = "?mat.name"
+AI_MATKEY_TWOSIDED          : cstring = "$mat.twosided"
+AI_MATKEY_SHADING_MODEL     : cstring = "$mat.shadingm"
+AI_MATKEY_ENABLE_WIREFRAME  : cstring = "$mat.wireframe"
+AI_MATKEY_BLEND_FUNC        : cstring = "$mat.blend"
+AI_MATKEY_OPACITY           : cstring = "$mat.opacity"
+AI_MATKEY_BUMPSCALING       : cstring = "$mat.bumpscaling"
+AI_MATKEY_SHININESS         : cstring = "$mat.shininess"
+AI_MATKEY_REFLECTIVITY      : cstring = "$mat.reflectivity"
+AI_MATKEY_SHININESS_STRENGTH: cstring = "$mat.shinpercent"
+AI_MATKEY_REFRACTI          : cstring = "$mat.refracti"
+
+AI_MATKEY_COLOR_DIFFUSE    : cstring = "$clr.diffuse"
+AI_MATKEY_COLOR_AMBIENT    : cstring = "$clr.ambient"
+AI_MATKEY_COLOR_SPECULAR   : cstring = "$clr.specular"
+AI_MATKEY_COLOR_EMISSIVE   : cstring = "$clr.emissive"
+AI_MATKEY_COLOR_TRANSPARENT: cstring = "$clr.transparent"
+AI_MATKEY_COLOR_REFLECTIVE : cstring = "$clr.reflective"
+
+AI_MATKEY_GLOBAL_BACKGROUND_IMAGE: cstring = "?bg.global"
+
+
 aiVectorKey :: struct {
 	mTime:  f64,
 	mValue: aiVector3D,
